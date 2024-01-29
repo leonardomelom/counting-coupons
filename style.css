@@ -1,0 +1,73 @@
+body {
+    background-color: #00c3ff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    overflow-x: hidden;
+  }
+
+  @keyframes pulsar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05); /* Aumenta o tamanho em 5% */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  #contador {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 32px; 
+    right: 32px;
+    width: 140px; 
+    height: auto; 
+    background-color: #000;
+    background-position: top;
+    border: 2px solid #15864E;
+    outline: none;
+    border-radius: 2px;
+    padding:8px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contador h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+  }
+  
+  #valorContador {
+    background-color: #15864E; 
+    color: #fff; 
+    padding: 8px; 
+    border-radius: 0px; 
+    font-size: 34px;
+    display: inline-block; 
+    width: 60%;
+    text-align: center;
+    font-weight: 900;
+    position: relative;
+    /*animation: pulsar 5s infinite ease-in-out;*/
+  }
+  #tagOutline{
+    color: #fafafc;
+    margin-top: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  #barraProgresso {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px; 
+    background-color: gray; 
+    width: 100%;
+  }
