@@ -1,7 +1,7 @@
 body {
     background-color: #00c3ff;
     margin: 0;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Source Sans 3', sans-serif; 
     overflow-x: hidden;
   }
 
@@ -25,12 +25,12 @@ body {
     top: 32px; 
     right: 32px;
     width: 120px; 
-    height: auto; 
-    background-color: #000;
+    height: min-content; 
+    background-color: #FF9F18;
     background-position: top;
-    border: 2px solid #15864E;
+    /*border: 2px solid #ff0030;*/
     outline: none;
-    border-radius: 2px;
+    border-radius: 8px;
     padding:8px 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -44,13 +44,15 @@ body {
   }
   
   #valorContador {
-    background-color: #15864E; 
+    background-color: #ff0030; 
     color: #fff; 
     padding: 8px; 
-    border-radius: 0px; 
-    font-size: 34px;
+    border-radius: 6px; 
+    font-size: 40px;
+    line-height: 100%;
     display: inline-block; 
     width: 60%;
+    height: max-content;
     text-align: center;
     font-weight: 900;
     position: relative;
