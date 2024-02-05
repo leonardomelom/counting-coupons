@@ -22,36 +22,46 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 32px; 
-    right: 32px;
-    width: 120px; 
+    bottom: 338px; 
+    right: 36px;
+    width: max-content; 
     height: min-content; 
-    background-color: #FF9F18;
+   
     background-position: top;
     /*border: 2px solid #ff0030;*/
     outline: none;
     border-radius: 8px;
-    padding:8px 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*padding:8px 16px;*/
   }
   
   #contador h2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
     padding: 0;
-    margin: 5px;
+    margin: 0 0 8px 0;
   }
-  
+  .strip{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 200px;
+    position: absolute;
+    bottom:8px;
+    right: 8px;
+  }
   #valorContador {
-    background-color: #ff0030; 
+    background-color: #FF9F18; 
     color: #fff; 
     padding: 8px; 
-    border-radius: 6px; 
+    border-radius: 99px; 
+    padding:8px 32px;
+    border: 2px solid #ff0030;
+    outline: 2px solid #FF9F18;
     font-size: 40px;
     line-height: 100%;
     display: inline-block; 
-    width: 60%;
+    width: max-content;
     height: max-content;
     text-align: center;
     font-weight: 900;
