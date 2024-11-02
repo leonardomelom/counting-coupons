@@ -13,6 +13,11 @@
 </head>
 <body>
   <!-- <img src="./RED_STRIP.png" alt="" class="strip"> -->
+<main>
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+  <div class="swiper-slide">
    <div class="contador-wrapper">
   <div id="contador">
     <h2 id="chamadaTitulo">Cupons<br/> disponíveis</h2>
@@ -23,6 +28,45 @@
   </div>
 </div>
 
+</div>
+<div class="swiper-slide ">
+  <div class="contador-wrapper">
+ <div id="contador" class="enem">
+   <h2 id="chamadaTituloENEM">Cupons<br/> disponíveis</h2>
+   <div id="valorContadorENEM">   
+       ...
+     </div>
+     <div id="tagOutline"></div>
+ </div>
+</div>
+
+</div>
+</div>
+</div>
+</main>
   <script type="module" src="scripts.js"></script>
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+var swiperEnemVip = new Swiper(".swiper", {
+lazy: true,
+disableOnInteraction: true,
+pauseOnMouseEnter: true,
+grabCursor: true,
+slidesPerGroup: 1,
+loop: true,
+autoplay:{
+  delay: 60000
+}
+
+});
+</script>
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+
