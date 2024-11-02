@@ -1,5 +1,5 @@
 body {
-    background-color: #00c3ff;
+    background-color: #00ff15;
     margin: 0;
     font-family: 'Source Sans 3', sans-serif; 
     overflow-x: hidden;
@@ -55,11 +55,11 @@ body {
 
    #contador {
     background-color: #000; 
-    color: #ff0030; 
+    color: #0A89B4; 
     padding: 8px; 
     border-radius: 12px; 
     padding:8px 24px;
-    border: 2px solid #ff0030;
+    border: 2px solid #0A89B4;
     outline: 4px solid #000;
     font-size: 48px;
     line-height: 100%;

@@ -11,7 +11,7 @@ const firebaseConfig = {
 const app = firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
-const numeroRef = database.ref('Numero');
+const numeroRef = database.ref('tarjaMED');
 const chamadasRef = database.ref('Chamadas'); 
 
 let valorAtual = null;
