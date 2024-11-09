@@ -34,17 +34,25 @@ body {
     /*padding:8px 16px;*/
   }
   
-  #contador h2 {
+  #chamadaTitulo  {
     color: #fff;
-    font-family: 'Source Sans 3';
-    font-size: 24px;
-    line-height: 24px;
+    font-family: 'Anton';
+    font-size: 40px;
+    line-height: 28px;
     text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: left;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0;
   }
+  #chamadaTitulo span{
+    font-size: 26px;
+    line-height: 24px;
+    margin-top: -8px;
+  }
+
+
   .strip{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -63,12 +71,14 @@ body {
     /* border: 2px solid #ff0030; */
     /* outline: 4px solid #000; */
     
-    display: inline-block; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     width: max-content;
     height: max-content;
     text-align: center;
-  
-    
+
     font-family: 'Source Sans 3';
     /* font-style: italic; */
     position: relative;
@@ -77,11 +87,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   #valorContador{
-    letter-spacing: -3px;
+    font-family: Anton;
+    letter-spacing: 0px;
     font-weight: 900;
-    font-size: 64px;
+    font-size: 72px;
     line-height: 40px;
   }
+
   #tagOutline{
     color: #fafafc;
     margin-top: 3px;
